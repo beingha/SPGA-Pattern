@@ -1,0 +1,51 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local data and generated files
+data/*
+models/*
+outputs/
+results/
+checkpoints/
+
+# Keep directory structure when needed
+!data/.gitkeep
+!models/.gitkeep
+
+# Generated figures and temporary files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.env
+.env.*
+
+# Claude Code local settings
+.claude/
